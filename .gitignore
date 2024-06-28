@@ -12,6 +12,7 @@ build/
 .idea/modules
 *.iml
 *.ipr
+.idea/uiDesigner.xml
 
 .idea/**/gradle.xml
 .idea/**/libraries
@@ -22,6 +23,7 @@ build/
 .idea/**/usage.statistics.xml
 .idea/**/dictionaries
 .idea/**/shelf
+
 
 # Cache file creation bug
 # See https://youtrack.jetbrains.com/issue/JBR-2257
