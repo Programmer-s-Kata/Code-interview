@@ -1,3 +1,2 @@
-rootProject.name = "Code-interview"
+rootProject.name = "Code-interview-java"
 include("codility")
-
