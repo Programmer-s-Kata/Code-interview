@@ -6,16 +6,16 @@ import java.util.Stack;
 
 public class BinaryGap {
 
+    @SuppressWarnings("PMD.AvoidReassigningParameters")
     public int solution(int number) {
         var stack = new Stack<Integer>();
         List<Integer> binaryRepresentation = new ArrayList<>();
         while (number > 0) {
-
             stack.push(number % 2);
             number = number / 2;
         }
 
-        while (!(stack.isEmpty())) {
+        while (!stack.isEmpty()) {
             binaryRepresentation.add(stack.pop());
         }
 
