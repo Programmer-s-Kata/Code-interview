@@ -23,6 +23,7 @@
             <option value="$PROJECT_DIR$/buildSrc" />
             <option value="$PROJECT_DIR$/codility" />
             <option value="$PROJECT_DIR$/data-structure" />
+            <option value="$PROJECT_DIR$/leetcode" />
           </set>
         </option>
       </GradleProjectSettings>
