@@ -16,7 +16,7 @@ class BubbleSortTest {
 
     @ParameterizedTest
     @MethodSource("provideArraysAndNames")
-    @DisplayName("test sorting with various input arrays")
+    @DisplayName("sort various input arrays")
     void testSortWithDifferentArraysAndNames(Integer[] input, Integer[] expected) {
         Integer[] sorted = bubbleSort.sort(input);
         assertArrayEquals(expected, sorted);
