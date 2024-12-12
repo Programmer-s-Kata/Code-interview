@@ -27,11 +27,11 @@ public class BinarySearchTest {
         return Stream.of(
                 Arguments.of(new Integer[]{1, 2, 3, 4, 5}, 3, 2),
                 Arguments.of(new Integer[]{1, 2, 3, 4, 5}, 5, 4),
-                Arguments.of(new Integer[]{1, 2, 3, 4, 5}, 1, 0),   // Target is the first element
-                Arguments.of(new Integer[]{1, 2, 3, 4, 5}, 6, -1),  // Target is not in the array
-                Arguments.of(new Integer[]{10, 20, 30, 40, 50}, 30, 2), // Test with larger numbers
-                Arguments.of(new String[]{"apple", "banana", "cherry", "date"}, "cherry", 2),  // Test with strings
-                Arguments.of(new String[]{"apple", "banana", "cherry", "date"}, "grape", -1)   // String target not found
+                Arguments.of(new Integer[]{1, 2, 3, 4, 5}, 1, 0),
+                Arguments.of(new Integer[]{1, 2, 3, 4, 5}, 6, -1),
+                Arguments.of(new Integer[]{10, 20, 30, 40, 50}, 30, 2),
+                Arguments.of(new String[]{"apple", "banana", "cherry", "date"}, "cherry", 2),
+                Arguments.of(new String[]{"apple", "banana", "cherry", "date"}, "grape", -1)
         );
     }
 }
