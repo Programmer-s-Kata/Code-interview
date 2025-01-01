@@ -1,17 +1,19 @@
+import dependency.JUnit
+
 plugins {
-    id("java")
+    `java-library`
 }
-
-group = "org.example"
-version = "unspecified"
-
 repositories {
     mavenCentral()
 }
 
 dependencies {
-    testImplementation(platform("org.junit:junit-bom:5.10.0"))
-    testImplementation("org.junit.jupiter:junit-jupiter")
+    testImplementation(JUnit.engine)
+    testImplementation(platform(JUnit.bom))
+    JUnit.api.forEach{
+        testImplementation(it)
+    }
+
 }
 
 tasks.test {
