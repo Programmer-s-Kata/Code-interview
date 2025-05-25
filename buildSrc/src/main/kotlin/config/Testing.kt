@@ -15,6 +15,7 @@ fun Project.configureTesting() {
         dependencies.add("testImplementation", JUnit.api)
         dependencies.add("testRuntimeOnly", JUnit.engine)
         dependencies.add("testImplementation", JUnit.params)
+        dependencies.add("testRuntimeOnly", JUnit.launcher)
     }
 
     tasks.withType<Test>().configureEach {
