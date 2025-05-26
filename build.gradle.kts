@@ -1,4 +1,5 @@
 import config.configureJava
+import config.configureJavadoc
 import config.configurePmd
 import config.configureTesting
 
@@ -13,4 +14,5 @@ allprojects {
     configureJava()
     configureTesting()
     configurePmd()
+    configureJavadoc()
 }
