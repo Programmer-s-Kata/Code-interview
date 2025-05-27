@@ -3,6 +3,7 @@ package sorts.bubble;
 import sorts.common.SortAlgorithm;
 
 public class BubbleSort implements SortAlgorithm {
+
     @Override
     public <T extends Comparable<T>> T[] sort(T[] unsorted) {
         int length = unsorted.length;
@@ -14,10 +15,10 @@ public class BubbleSort implements SortAlgorithm {
                     swapped = true;
                 }
             }
+
             if (!swapped) {
                 break;
             }
-
         }
         return unsorted;
     }
