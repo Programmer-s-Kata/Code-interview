@@ -1,0 +1,3 @@
+/**
+ * A module-specific configuration.
+ */
