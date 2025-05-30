@@ -1,6 +1,6 @@
 package sorts.insertion;
 
-import sorts.common.SortAlgorithm;
+import common.SortAlgorithm;
 
 public class InsertionSort implements SortAlgorithm {
 

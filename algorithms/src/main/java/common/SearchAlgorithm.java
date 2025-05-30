@@ -1,4 +1,4 @@
-package sorts.common;
+package common;
 
 public interface SearchAlgorithm {
 

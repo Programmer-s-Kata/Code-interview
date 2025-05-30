@@ -1,6 +1,6 @@
 package search;
 
-import sorts.common.SearchAlgorithm;
+import common.SearchAlgorithm;
 
 public class LinearSearch implements SearchAlgorithm {
 

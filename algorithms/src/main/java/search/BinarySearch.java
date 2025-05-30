@@ -1,6 +1,6 @@
 package search;
 
-import sorts.common.SearchAlgorithm;
+import common.SearchAlgorithm;
 
 public class BinarySearch implements SearchAlgorithm {
 

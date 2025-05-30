@@ -1,4 +1,4 @@
-package sorts.common;
+package common;
 
 /**
  * The general interface for all sorting algorithms.

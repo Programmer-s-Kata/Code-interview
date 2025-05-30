@@ -1,6 +1,6 @@
 package sorts.bubble;
 
-import sorts.common.SortAlgorithm;
+import common.SortAlgorithm;
 
 public class BubbleSort implements SortAlgorithm {
 
