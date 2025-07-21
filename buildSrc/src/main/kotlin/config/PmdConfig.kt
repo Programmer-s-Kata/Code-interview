@@ -24,7 +24,6 @@ fun Project.configurePmd() {
             .getByName("main")
         sourceSets = listOf(mainSourceSet)
 
-
         tasks.withType<Pmd> {
             exclude(
                 "**/build/**",
